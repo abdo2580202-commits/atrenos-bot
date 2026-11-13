@@ -4,7 +4,8 @@ function createBot() {
   const bot = mineflayer.createBot({
     host: 'ArabCraft123.aternos.me',
     port: 30812,
-    username: 'dream'
+    username: 'dream',
+    version: '1.21.4'
   });
 
   bot.on('spawn', () => {
